@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3452871EAE639400174146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3452861EAE639400174146 /* AppDelegate.swift */; };
+		AC3452891EAE639400174146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3452881EAE639400174146 /* ViewController.swift */; };
+		AC34528C1EAE639400174146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC34528A1EAE639400174146 /* Main.storyboard */; };
+		AC34528E1EAE639400174146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC34528D1EAE639400174146 /* Assets.xcassets */; };
+		AC3452911EAE639400174146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC34528F1EAE639400174146 /* LaunchScreen.storyboard */; };
+		AC34529C1EAE639400174146 /* GirdironAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34529B1EAE639400174146 /* GirdironAppTests.swift */; };
+		AC3452A71EAE639400174146 /* GirdironAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3452A61EAE639400174146 /* GirdironAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC3452981EAE639400174146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC34527B1EAE639400174146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3452821EAE639400174146;
+			remoteInfo = GirdironApp;
+		};
+		AC3452A31EAE639400174146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC34527B1EAE639400174146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3452821EAE639400174146;
+			remoteInfo = GirdironApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC3452831EAE639400174146 /* GirdironApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirdironApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3452861EAE639400174146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC3452881EAE639400174146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC34528B1EAE639400174146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC34528D1EAE639400174146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC3452901EAE639400174146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC3452921EAE639400174146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3452971EAE639400174146 /* GirdironAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirdironAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC34529B1EAE639400174146 /* GirdironAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirdironAppTests.swift; sourceTree = "<group>"; };
+		AC34529D1EAE639400174146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3452A21EAE639400174146 /* GirdironAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirdironAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3452A61EAE639400174146 /* GirdironAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirdironAppUITests.swift; sourceTree = "<group>"; };
+		AC3452A81EAE639400174146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3452801EAE639400174146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3452941EAE639400174146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC34529F1EAE639400174146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC34527A1EAE639400174146 = {
+			isa = PBXGroup;
+			children = (
+				AC3452851EAE639400174146 /* GirdironApp */,
+				AC34529A1EAE639400174146 /* GirdironAppTests */,
+				AC3452A51EAE639400174146 /* GirdironAppUITests */,
+				AC3452841EAE639400174146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3452841EAE639400174146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3452831EAE639400174146 /* GirdironApp.app */,
+				AC3452971EAE639400174146 /* GirdironAppTests.xctest */,
+				AC3452A21EAE639400174146 /* GirdironAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3452851EAE639400174146 /* GirdironApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC3452861EAE639400174146 /* AppDelegate.swift */,
+				AC3452881EAE639400174146 /* ViewController.swift */,
+				AC34528A1EAE639400174146 /* Main.storyboard */,
+				AC34528D1EAE639400174146 /* Assets.xcassets */,
+				AC34528F1EAE639400174146 /* LaunchScreen.storyboard */,
+				AC3452921EAE639400174146 /* Info.plist */,
+			);
+			path = GirdironApp;
+			sourceTree = "<group>";
+		};
+		AC34529A1EAE639400174146 /* GirdironAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC34529B1EAE639400174146 /* GirdironAppTests.swift */,
+				AC34529D1EAE639400174146 /* Info.plist */,
+			);
+			path = GirdironAppTests;
+			sourceTree = "<group>";
+		};
+		AC3452A51EAE639400174146 /* GirdironAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC3452A61EAE639400174146 /* GirdironAppUITests.swift */,
+				AC3452A81EAE639400174146 /* Info.plist */,
+			);
+			path = GirdironAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3452821EAE639400174146 /* GirdironApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3452AB1EAE639400174146 /* Build configuration list for PBXNativeTarget "GirdironApp" */;
+			buildPhases = (
+				AC34527F1EAE639400174146 /* Sources */,
+				AC3452801EAE639400174146 /* Frameworks */,
+				AC3452811EAE639400174146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GirdironApp;
+			productName = GirdironApp;
+			productReference = AC3452831EAE639400174146 /* GirdironApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC3452961EAE639400174146 /* GirdironAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3452AE1EAE639400174146 /* Build configuration list for PBXNativeTarget "GirdironAppTests" */;
+			buildPhases = (
+				AC3452931EAE639400174146 /* Sources */,
+				AC3452941EAE639400174146 /* Frameworks */,
+				AC3452951EAE639400174146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3452991EAE639400174146 /* PBXTargetDependency */,
+			);
+			name = GirdironAppTests;
+			productName = GirdironAppTests;
+			productReference = AC3452971EAE639400174146 /* GirdironAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC3452A11EAE639400174146 /* GirdironAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3452B11EAE639400174146 /* Build configuration list for PBXNativeTarget "GirdironAppUITests" */;
+			buildPhases = (
+				AC34529E1EAE639400174146 /* Sources */,
+				AC34529F1EAE639400174146 /* Frameworks */,
+				AC3452A01EAE639400174146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3452A41EAE639400174146 /* PBXTargetDependency */,
+			);
+			name = GirdironAppUITests;
+			productName = GirdironAppUITests;
+			productReference = AC3452A21EAE639400174146 /* GirdironAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC34527B1EAE639400174146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MrAliGorithm;
+				TargetAttributes = {
+					AC3452821EAE639400174146 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U3FSDK5XFF;
+						ProvisioningStyle = Automatic;
+					};
+					AC3452961EAE639400174146 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U3FSDK5XFF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC3452821EAE639400174146;
+					};
+					AC3452A11EAE639400174146 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U3FSDK5XFF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC3452821EAE639400174146;
+					};
+				};
+			};
+			buildConfigurationList = AC34527E1EAE639400174146 /* Build configuration list for PBXProject "GirdironApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC34527A1EAE639400174146;
+			productRefGroup = AC3452841EAE639400174146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3452821EAE639400174146 /* GirdironApp */,
+				AC3452961EAE639400174146 /* GirdironAppTests */,
+				AC3452A11EAE639400174146 /* GirdironAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3452811EAE639400174146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3452911EAE639400174146 /* LaunchScreen.storyboard in Resources */,
+				AC34528E1EAE639400174146 /* Assets.xcassets in Resources */,
+				AC34528C1EAE639400174146 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3452951EAE639400174146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3452A01EAE639400174146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC34527F1EAE639400174146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3452891EAE639400174146 /* ViewController.swift in Sources */,
+				AC3452871EAE639400174146 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3452931EAE639400174146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC34529C1EAE639400174146 /* GirdironAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC34529E1EAE639400174146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3452A71EAE639400174146 /* GirdironAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC3452991EAE639400174146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3452821EAE639400174146 /* GirdironApp */;
+			targetProxy = AC3452981EAE639400174146 /* PBXContainerItemProxy */;
+		};
+		AC3452A41EAE639400174146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3452821EAE639400174146 /* GirdironApp */;
+			targetProxy = AC3452A31EAE639400174146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC34528A1EAE639400174146 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC34528B1EAE639400174146 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC34528F1EAE639400174146 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3452901EAE639400174146 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC3452A91EAE639400174146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3452AA1EAE639400174146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3452AC1EAE639400174146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = GirdironApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GirdironApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC3452AD1EAE639400174146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = GirdironApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GirdironApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC3452AF1EAE639400174146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = GirdironAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GirdironAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GirdironApp.app/GirdironApp";
+			};
+			name = Debug;
+		};
+		AC3452B01EAE639400174146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = GirdironAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GirdironAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GirdironApp.app/GirdironApp";
+			};
+			name = Release;
+		};
+		AC3452B21EAE639400174146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = GirdironAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GirdironAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GirdironApp;
+			};
+			name = Debug;
+		};
+		AC3452B31EAE639400174146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				INFOPLIST_FILE = GirdironAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GirdironAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GirdironApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC34527E1EAE639400174146 /* Build configuration list for PBXProject "GirdironApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3452A91EAE639400174146 /* Debug */,
+				AC3452AA1EAE639400174146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3452AB1EAE639400174146 /* Build configuration list for PBXNativeTarget "GirdironApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3452AC1EAE639400174146 /* Debug */,
+				AC3452AD1EAE639400174146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC3452AE1EAE639400174146 /* Build configuration list for PBXNativeTarget "GirdironAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3452AF1EAE639400174146 /* Debug */,
+				AC3452B01EAE639400174146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC3452B11EAE639400174146 /* Build configuration list for PBXNativeTarget "GirdironAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3452B21EAE639400174146 /* Debug */,
+				AC3452B31EAE639400174146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC34527B1EAE639400174146 /* Project object */;
+}
