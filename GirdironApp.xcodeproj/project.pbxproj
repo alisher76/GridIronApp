@@ -14,6 +14,9 @@
 		AC3452911EAE639400174146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC34528F1EAE639400174146 /* LaunchScreen.storyboard */; };
 		AC34529C1EAE639400174146 /* GirdironAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34529B1EAE639400174146 /* GirdironAppTests.swift */; };
 		AC3452A71EAE639400174146 /* GirdironAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3452A61EAE639400174146 /* GirdironAppUITests.swift */; };
+		AC3452B51EAE696400174146 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3452B41EAE696400174146 /* Events.swift */; };
+		AC3452B71EAE729300174146 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3452B61EAE729300174146 /* MainVC.swift */; };
+		AC4C716F1EB5209A0084D532 /* CounterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C716E1EB5209A0084D532 /* CounterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		AC3452A21EAE639400174146 /* GirdironAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirdironAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3452A61EAE639400174146 /* GirdironAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirdironAppUITests.swift; sourceTree = "<group>"; };
 		AC3452A81EAE639400174146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3452B41EAE696400174146 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		AC3452B61EAE729300174146 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		AC4C716E1EB5209A0084D532 /* CounterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				AC3452861EAE639400174146 /* AppDelegate.swift */,
+				AC3452B61EAE729300174146 /* MainVC.swift */,
 				AC3452881EAE639400174146 /* ViewController.swift */,
+				AC4C716E1EB5209A0084D532 /* CounterVC.swift */,
+				AC3452B41EAE696400174146 /* Events.swift */,
 				AC34528A1EAE639400174146 /* Main.storyboard */,
 				AC34528D1EAE639400174146 /* Assets.xcassets */,
 				AC34528F1EAE639400174146 /* LaunchScreen.storyboard */,
@@ -262,6 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4C716F1EB5209A0084D532 /* CounterVC.swift in Sources */,
+				AC3452B51EAE696400174146 /* Events.swift in Sources */,
+				AC3452B71EAE729300174146 /* MainVC.swift in Sources */,
 				AC3452891EAE639400174146 /* ViewController.swift in Sources */,
 				AC3452871EAE639400174146 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +526,7 @@
 				AC3452AD1EAE639400174146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC3452AE1EAE639400174146 /* Build configuration list for PBXNativeTarget "GirdironAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				AC3452B01EAE639400174146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC3452B11EAE639400174146 /* Build configuration list for PBXNativeTarget "GirdironAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				AC3452B31EAE639400174146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
